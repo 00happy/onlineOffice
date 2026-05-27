@@ -1,4 +1,4 @@
-FROM onlyoffice/documentserver:8
+FROM onlyoffice/documentserver:9.4
 
 # 健康检查
 HEALTHCHECK --interval=30s --timeout=10s --retries=3 \
